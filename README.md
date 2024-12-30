@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RentalSpot Website
+
+This project is a property rental website developed using **Next.js**. It leverages the latest features of Next.js to provide users with an intuitive platform for browsing, searching, and managing property listings.
+
+## Overview
+
+**Next.js** is a powerful framework for building server-side rendered and static websites, making it a great choice for modern web development. This project showcases its capabilities by implementing a full-featured rental platform.
+
+## Features
+
+The property rental website includes the following features:
+
+- User authentication with Google & Next Auth
+- User authorization
+- Server Actions & Database Interaction
+- Route protection
+- User profile with user listings
+- Property Listing CRUD (Create, Read, Update, Delete)
+- Multiple property image uploads
+- Cloudinary integration for image storage
+- Advanced property search functionality
+- Internal messaging system with 'unread' notifications
+- Photoswipe image gallery for enhanced image viewing
+- Interactive Mapbox maps
+- Toast notifications for user feedback
+- Property bookmarking / saved properties
+- Sharing properties to social media
+- Loading spinners for better user experience
+- Responsive design using Tailwind CSS
+- Custom 404 page
+
+## Technologies Used
+
+This project utilizes the following technologies and packages:
+
+- Next.js
+- React
+- Tailwind CSS
+- MongoDB
+- Mongoose
+- Next Auth
+- React Icons
+- Photoswipe
+- Cloudinary
+- Mapbox
+- React Map GL
+- React Geocode
+- React Spinners
+- React Toastify
+- React Share
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, clone the repository and install the required dependencies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shukrat29/RentalSpot-Next.js
+   ```
+2. Navigate into the project directory:
+   cd RentalSpot
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Install the dependencies:
+   npm install
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Start the development server:
+   npm run dev
