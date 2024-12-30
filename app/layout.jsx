@@ -1,6 +1,7 @@
 // This is main starting page whole screen
 
 import "@/assets/styles/globals.css";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
@@ -15,6 +16,7 @@ const MainLayout = ({ children }) => {
       <body>
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
