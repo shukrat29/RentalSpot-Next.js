@@ -4,7 +4,7 @@ This project is a property rental website developed using **Next.js**. It levera
 
 ## Overview
 
-**Next.js** is a powerful framework for building server-side rendered and static websites, making it a great choice for modern web development. This project showcases its capabilities by implementing a full-featured rental platform.
+The RentalSpot Website offers a user-friendly interface for discovering and managing rental properties. Users can authenticate via Google, view detailed listings, and upload multiple images to showcase their properties. With features like internal messaging, property bookmarking, and responsive design, this platform enhances the rental experience in the real estate market.
 
 ## Features
 
