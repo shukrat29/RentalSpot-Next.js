@@ -1,5 +1,6 @@
 "use client";
-import { ClipLoader } from "react-spinners/ClipLoader";
+
+import { ClipLoader } from "react-spinners";
 
 const override = {
   display: "block",
@@ -9,7 +10,7 @@ const override = {
 const LoadingPage = () => {
   return (
     <ClipLoader
-      color="#3b82f6"
+      color="#10b981"
       cssOverride={override}
       size={150}
       aria-label="Loading Spinner"
