@@ -1,6 +1,7 @@
 // single individual property page
 
 import PropertyDetails from "@/components/PropertyDetails";
+import PropertyImages from "@/components/PropertyImages";
 import connectDB from "@/config/database";
 import Property from "@/models/Property";
 import Image from "next/image";
@@ -14,7 +15,7 @@ const PropertyPage = async ({ params }) => {
     <>
       <section>
         <Image
-          src={`/properties/${property.images[0]}`}
+          src={property.images[0]}
           className="object-cover h-[400px] w-full"
           height={0}
           width={0}
@@ -40,6 +41,7 @@ const PropertyPage = async ({ params }) => {
           </div>
         </div>
       </section>
+      <PropertyImages images={property.images} />
     </>
   );
 };
