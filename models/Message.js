@@ -28,7 +28,9 @@ const MessageSchema = new Schema(
     phone: {
       type: String,
     },
-    body: String,
+    body: {
+      type: String,
+    },
     read: {
       type: Boolean,
       default: false,
@@ -39,6 +41,6 @@ const MessageSchema = new Schema(
   }
 );
 
-const Message = models.User || model("Message", MessageSchema);
+const Message = models.Message || model("Message", MessageSchema);
 
 export default Message;
