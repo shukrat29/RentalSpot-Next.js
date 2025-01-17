@@ -16,11 +16,13 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     <AuthProvider>
-      <html>
+      <html lang="en">
         <body>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
+          <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
           <ToastContainer />
         </body>
       </html>
